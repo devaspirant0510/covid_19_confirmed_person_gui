@@ -1,3 +1,9 @@
+#####################################
+# @covid-19 confirmed person
+# @2020.8.24
+# @ver 0.1
+# @devaspirant0510
+#####################################
 from bs4 import BeautifulSoup
 import urllib.request
 from tkinter import *
