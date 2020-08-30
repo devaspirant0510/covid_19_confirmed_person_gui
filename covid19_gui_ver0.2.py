@@ -297,7 +297,7 @@ def on_select(event=None):
         label7_text.config(text=deaddataset[15])      
 
 # 콤보박스               
-cov_by_region_combobox=ttk.Combobox(frame4,height=12,values=citylist,state='readonly',font=font) #일기전용
+cov_by_region_combobox=ttk.Combobox(frame4,height=12,values=citylist,state='readonly',font=font) #읽기전용
 cov_by_region_combobox.set("지역을 선택하세요")#초기 메시지
 cov_by_region_combobox.place(x=110,y=30,width=130,height=25)
 cov_by_region_combobox.bind('<<ComboboxSelected>>', on_select)#항목선택만해도 함수 실행되는 옵션
